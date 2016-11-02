@@ -15,6 +15,7 @@
 		010C3C021DC99A1F00091EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010C3C001DC99A1F00091EB7 /* Main.storyboard */; };
 		010C3C0D1DC99A1F00091EB7 /* myfirstsstupidmacappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010C3C0C1DC99A1F00091EB7 /* myfirstsstupidmacappTests.swift */; };
 		010C3C181DC99A1F00091EB7 /* myfirstsstupidmacappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010C3C171DC99A1F00091EB7 /* myfirstsstupidmacappUITests.swift */; };
+		010C3C261DC99AE800091EB7 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 010C3C251DC99AE800091EB7 /* resource */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		010C3C131DC99A1F00091EB7 /* myfirstsstupidmacappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfirstsstupidmacappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		010C3C171DC99A1F00091EB7 /* myfirstsstupidmacappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstsstupidmacappUITests.swift; sourceTree = "<group>"; };
 		010C3C191DC99A1F00091EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010C3C251DC99AE800091EB7 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		010C3BE91DC99A1E00091EB7 = {
 			isa = PBXGroup;
 			children = (
+				010C3C251DC99AE800091EB7 /* resource */,
 				010C3BF41DC99A1F00091EB7 /* myfirstsstupidmacapp */,
 				010C3C0B1DC99A1F00091EB7 /* myfirstsstupidmacappTests */,
 				010C3C161DC99A1F00091EB7 /* myfirstsstupidmacappUITests */,
@@ -236,6 +239,7 @@
 			files = (
 				010C3BFF1DC99A1F00091EB7 /* Assets.xcassets in Resources */,
 				010C3C021DC99A1F00091EB7 /* Main.storyboard in Resources */,
+				010C3C261DC99AE800091EB7 /* resource in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
