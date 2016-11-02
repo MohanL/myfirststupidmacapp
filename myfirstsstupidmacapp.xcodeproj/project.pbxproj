@@ -16,6 +16,7 @@
 		010C3C0D1DC99A1F00091EB7 /* myfirstsstupidmacappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010C3C0C1DC99A1F00091EB7 /* myfirstsstupidmacappTests.swift */; };
 		010C3C181DC99A1F00091EB7 /* myfirstsstupidmacappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010C3C171DC99A1F00091EB7 /* myfirstsstupidmacappUITests.swift */; };
 		010C3C261DC99AE800091EB7 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 010C3C251DC99AE800091EB7 /* resource */; };
+		01E080721DC9A6BF005C8B53 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 01E080711DC9A6BF005C8B53 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		010C3C171DC99A1F00091EB7 /* myfirstsstupidmacappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstsstupidmacappUITests.swift; sourceTree = "<group>"; };
 		010C3C191DC99A1F00091EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		010C3C251DC99AE800091EB7 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
+		01E080711DC9A6BF005C8B53 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		010C3BE91DC99A1E00091EB7 = {
 			isa = PBXGroup;
 			children = (
+				01E080711DC9A6BF005C8B53 /* Readme.md */,
 				010C3C251DC99AE800091EB7 /* resource */,
 				010C3BF41DC99A1F00091EB7 /* myfirstsstupidmacapp */,
 				010C3C0B1DC99A1F00091EB7 /* myfirstsstupidmacappTests */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E080721DC9A6BF005C8B53 /* Readme.md in Sources */,
 				010C3BFD1DC99A1F00091EB7 /* Document.xcdatamodeld in Sources */,
 				010C3BF81DC99A1F00091EB7 /* ViewController.swift in Sources */,
 				010C3BF61DC99A1F00091EB7 /* AppDelegate.swift in Sources */,
@@ -507,6 +511,7 @@
 				010C3C1E1DC99A1F00091EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		010C3C1F1DC99A1F00091EB7 /* Build configuration list for PBXNativeTarget "myfirstsstupidmacappTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				010C3C211DC99A1F00091EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		010C3C221DC99A1F00091EB7 /* Build configuration list for PBXNativeTarget "myfirstsstupidmacappUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				010C3C241DC99A1F00091EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
